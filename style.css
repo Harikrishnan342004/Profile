@@ -93,7 +93,7 @@
 .front-part
 {
     height: 100vh;
-    background-image: linear-gradient(rgba(8, 8, 8, 0.9),rgba(0,0,0,0.9)),url(pexels-quintin-gellar-313782.jpg);
+    background-image: linear-gradient(rgba(8, 8, 8, 0.9),rgba(0,0,0,0.9)),url(.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
    
