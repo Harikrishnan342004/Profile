@@ -1,0 +1,343 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.front-part
+{
+    height: 100vh;
+    background-image: linear-gradient(rgba(8, 8, 8, 0.9),rgba(0,0,0,0.9)),url(pexels-quintin-gellar-313782.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+}
+.front-part-name
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 110px;
+   
+}
+.front-part-HARIKRISHNAN {
+    color: hsl(0, 0%, 28%);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .front-part-HARIKRISHNAN {
+    padding: 64px;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+  #spin {
+    color:red;
+  }
+  #spin:after {
+    content:"";
+    animation: spin 10s linear infinite;
+  }
+  @keyframes spin {
+    0% { content:"Developer"; }
+    10% { content:"Photographer"; }
+    20% { content:"Traveler"; }
+    30% { content:"Bike rider"; }
+   
+    
+  }
+  .developer-name
+  {
+    text-align: center;
+  }
+  .front-part-icon
+  {
+    color: rgb(209, 189, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+.front-part-icon-round
+{
+    margin: 9px;
+}
+
+
+#right-side
+{
+    
+    height: 90vh;
+    background-color: rgba(29,30,32,255); color: white;
+}
+#left-side{
+    background-color: rgba(29,30,32,255); color: white;
+    height: 90vh;
+}
+.profile-img
+{
+    height: 220px;
+    width: 220px;
+    border-radius: 100%;
+    border: 1px solid #9e3f9e;
+    
+}
+.i-m-Developer-body
+{
+    padding: 0;
+    margin: 0;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.i-am-Developer
+{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    
+    letter-spacing: 2px;
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+      blinkTextCursor 500ms infinite;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 200px;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: hsl(0, 0%, 80%);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+.second-part
+{
+    height: 100vh;
+    background-color: rgba(29,30,32,255) ;
+   
+
+}
+#skill-box
+{
+    
+    height: 150px;
+}
+.python
+{
+    background-color: #0a0000;
+    border: 2px solid #0a0000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #9e3f9e;
+}
+.java
+{
+    background-color: #0a0000;
+    border: 2px solid #0a0000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #9e3f9e;
+}
+.js
+{
+    background-color: #0a0000;
+    border: 2px solid #0a0000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #9e3f9e;
+}
+.html
+{
+    background-color: #0a0000;
+    border: 2px solid #0a0000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #9e3f9e;
+}
+.php
+{
+    background-color: #0a0000;
+    border: 2px solid #0a0000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #9e3f9e;
+}
+.nodejs
+{
+    background-color: #0a0000;
+    border: 2px solid #0a0000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #9e3f9e;
+}
+.css
+{
+    background-color: #0a0000;
+    border: 2px solid #0a0000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #9e3f9e;
+}
+.reactjs
+{
+    background-color: #0a0000;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #9e3f9e;
+}  
+.round
+{
+    background-color: #0a0000;
+    border: 2px solid #9e3f9e;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+.round:hover{
+    transform: scale(1.4);
+}
+.link
+{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.footerrightbox
+{
+    height: 400px;
+}
+.footerleftbox
+{
+    height: 400px;
+}
