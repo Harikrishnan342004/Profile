@@ -106,16 +106,11 @@
     
    
 }
-@media only screen and (max-width:600px)
-{
-  .front-part{
-    width:100vh ;
-  }
-}
+
 .front-part-name
 {
     padding: 0;
-    margin: 0;
+    margin-right: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,7 +129,7 @@
   }
   
   .front-part-HARIKRISHNAN {
-    padding: 64px;
+    padding: 6px;
     background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -188,12 +183,12 @@
 #right-side
 {
     
-    height: 90vh;
+    height: 100vh;
     background-color: rgba(29,30,32,255); color: white;
 }
 #left-side{
     background-color: rgba(29,30,32,255); color: white;
-    height: 90vh;
+    height: 100vh;
 }
 .profile-img
 {
@@ -245,7 +240,7 @@
   }
 .second-part
 {
-    height: 100vh;
+    height: 110vh;
     background-color: rgba(29,30,32,255) ;
    
 
@@ -327,6 +322,20 @@
     border-radius: 50%;
     border: 1px solid #9e3f9e;
 }  
+
+.nin
+{
+  width:400px;
+   height: 200px;
+}
+@media only screen and (max-width:600px)
+{
+  .nin
+  {
+    width: 200px;
+    height: 100px;
+  }
+}
 .round
 {
     background-color: #0a0000;
@@ -350,6 +359,8 @@
 .footerrightbox
 {
     height: 400px;
+    background-color: rgba(29,30,32,255);
+    color: white;
 }
 .footerleftbox
 {
