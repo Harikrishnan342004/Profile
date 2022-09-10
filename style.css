@@ -96,7 +96,7 @@
     width: 100%;
     background-image: linear-gradient(rgba(8, 8, 8, 0.5),rgba(0,0,0,0.9)),url(bg.jpg);
     background-size: 100%;
-    background-position: center;
+     background-position: center; 
     background-size: cover;
     background-repeat: no-repeat;
    
