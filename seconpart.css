@@ -1,0 +1,28 @@
+.wave
+{
+    font-size: 24px;
+    -webkit-box-reflect: 
+    below -20px
+    linear-gradient(transparent, rgb(0,0,0,0.2));
+}
+.wave span
+{
+    display: inline-block;
+    animation: wave-anim 1s infinite;
+    animation-delay: calc(o.1s * var(--item)) ;
+}
+@keyframes wave-anim
+
+{
+    0%,
+    40%,
+    100%
+    {
+        transform:translateY(0);
+    }
+    20%
+    
+    {
+        transform: translateY(-3px);
+    }
+}
