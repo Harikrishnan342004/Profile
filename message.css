@@ -29,14 +29,20 @@
     height: 50vh;
     
 }
+.mailgif
+{
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
 }
 
 form
 {
     text-align: center;
-   
-    width: max-content;
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -84,4 +90,22 @@ form
 th
 {
     padding: 7px;
+}
+
+@media screen and (max-width: 600px)
+{
+    .input-box
+    {
+       
+       width: 300px;
+    }
+    .input-box-textarea
+    {
+        width: 300px;
+    }
+    .input-box-submit
+    {
+        width: 150px;
+        height: 40px;  
+}
 }
