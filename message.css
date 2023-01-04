@@ -1,13 +1,14 @@
 #Message-part
 {
     height: 100vh;
+   
 }
 
 .column1
 {
     float: left;
     width: 50%;
-    height: 95vh;
+    height: 99vh;
     background-color: rgba(29,30,32,255);
     position: relative;
 }
@@ -16,7 +17,7 @@
 {
     float: left;
     width: 50%;
-    height: 95vh;
+    height: 99vh;
     background-color: rgba(29,30,32,255);
     position: relative;
 }
