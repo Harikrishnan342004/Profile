@@ -199,14 +199,7 @@
     background-color: rgba(29,30,32,255); color: white;
     height: 100vh;
 }
-.profile-img
-{
-    height: 220px;
-    width: 220px;
-    border-radius: 100%;
-    border: 1px solid #9e3f9e;
-    
-}
+
 .i-m-Developer-body
 {
     padding: 0;
