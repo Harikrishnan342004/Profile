@@ -1,0 +1,16 @@
+footer
+{
+    height: 300px;
+    width: 100%
+}
+
+.footerrightbox
+{
+    height: 350px;
+    background-color: rgba(29,30,32,255);
+    color: white;
+}
+.footerleftbox
+{
+    height: 400px;
+}
