@@ -591,7 +591,7 @@
           </tr>
           <tr>
            
-            <th> <button type="submit" class="input-box-submit" onclick="send()"> Submit</button> </th> 
+            <th> <button type="submit" id="inputboxsubmit"   onclick="send(); "> Submit</button> </th> 
 
           </tr>
         </table>
@@ -603,12 +603,19 @@
 
   </div>
 
+  
+
   <script>
     function send()
     {
       alert("Successfully your message submitted to admin")
      
+     
     }
+    inputboxsubmit.onclick = function()
+      {
+       this.style.backgroundColor = ' rgba(8, 8, 8, 0.5)';
+      };
   </script>
   
  </section>
