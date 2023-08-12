@@ -7,7 +7,7 @@
 	background:  rgba(29,30,32,255);
 	z-index: 2;
 	overflow: hidden;
-	animation: loader 7s ease 8s;
+	animation: loader 2s ease 2s;
     animation-fill-mode: forwards;
 }
 
